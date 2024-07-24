@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket",
+                "sagemaker:ListTrainingJobs",
+                "sagemaker:DescribeTrainingJob",
+                "athena:GetQueryExecution",
+                "athena:GetQueryResults",
+                "redshift:DescribeClusters",
+                "rds:DescribeDBInstances",
+                "cloudwatch:GetMetricData",
+                "cloudwatch:ListMetrics",
+                "glue:GetTable",
+                "glue:GetDatabase",
+                "emr:ListClusters",
+                "quicksight:ListDashboards"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

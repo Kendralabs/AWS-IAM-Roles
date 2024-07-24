@@ -1,0 +1,31 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket",
+                "sagemaker:CreateTrainingJob",
+                "sagemaker:ListTrainingJobs",
+                "sagemaker:DescribeTrainingJob",
+                "athena:StartQueryExecution",
+                "athena:GetQueryExecution",
+                "athena:GetQueryResults",
+                "redshift:DescribeClusters",
+                "redshift:ExecuteStatement",
+                "rds:DescribeDBInstances",
+                "rds:ExecuteStatement",
+                "cloudwatch:GetMetricData",
+                "cloudwatch:ListMetrics",
+                "glue:GetTable",
+                "glue:GetDatabase",
+                "emr:ListClusters",
+                "emr:DescribeCluster",
+                "quicksight:ListDashboards",
+                "quicksight:GetDashboard"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
