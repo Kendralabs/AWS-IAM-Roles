@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:Describe*",
+                "s3:ListBucket",
+                "s3:GetObject",
+                "cloudformation:Describe*",
+                "iam:List*",
+                "lambda:ListFunctions",
+                "lambda:GetFunction",
+                "cloudwatch:ListMetrics",
+                "cloudwatch:GetMetricData",
+                "codecommit:GetRepository",
+                "codebuild:ListProjects",
+                "codedeploy:ListApplications",
+                "codepipeline:GetPipelineState",
+                "elasticbeanstalk:DescribeApplications",
+                "ecr:ListImages",
+                "eks:ListClusters"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

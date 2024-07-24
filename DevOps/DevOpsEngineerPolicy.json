@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:*",
+                "s3:*",
+                "cloudformation:*",
+                "iam:ListRoles",
+                "iam:GetRole",
+                "iam:CreateRole",
+                "iam:DeleteRole",
+                "iam:PutRolePolicy",
+                "iam:AttachRolePolicy",
+                "iam:DetachRolePolicy",
+                "lambda:*",
+                "rds:*",
+                "cloudwatch:*",
+                "autoscaling:*",
+                "elasticloadbalancing:*",
+                "elasticbeanstalk:*",
+                "ecr:*",
+                "eks:*",
+                "codebuild:*",
+                "codecommit:*",
+                "codedeploy:*",
+                "codepipeline:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
