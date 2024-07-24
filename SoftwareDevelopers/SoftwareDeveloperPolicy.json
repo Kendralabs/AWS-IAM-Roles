@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "s3:PutObject",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "lambda:InvokeFunction",
+                "lambda:ListFunctions",
+                "rds:DescribeDBInstances",
+                "cloudwatch:PutMetricData",
+                "cloudwatch:GetMetricData",
+                "cloudwatch:ListMetrics",
+                "dynamodb:Query",
+                "dynamodb:Scan",
+                "dynamodb:PutItem",
+                "dynamodb:GetItem",
+                "cloudformation:DescribeStacks",
+                "sns:Publish",
+                "sqs:SendMessage",
+                "sqs:ReceiveMessage",
+                "sqs:DeleteMessage",
+                "sqs:GetQueueAttributes"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
